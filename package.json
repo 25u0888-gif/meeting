@@ -1,0 +1,22 @@
+{
+  "name": "lumina-scheduler-monorepo",
+  "version": "1.0.0",
+  "description": "Meeting Scheduler Application - Frontend",
+  "private": true,
+  "workspaces": [
+    "frontend/lumina-scheduler"
+  ],
+  "scripts": {
+    "dev": "cd frontend/lumina-scheduler && npm run dev",
+    "build": "cd frontend/lumina-scheduler && npm run build",
+    "preview": "cd frontend/lumina-scheduler && npm run preview",
+    "lint": "cd frontend/lumina-scheduler && npm run lint"
+  },
+  "keywords": [
+    "scheduler",
+    "meetings",
+    "booking"
+  ],
+  "author": "",
+  "license": "MIT"
+}

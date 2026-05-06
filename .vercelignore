@@ -1,0 +1,13 @@
+node_modules
+.git
+.env.local
+.env.*.local
+.DS_Store
+**/*.bak
+.vscode
+.idea
+*.log
+dist
+build
+.next
+_MConverter.eu_book meeting

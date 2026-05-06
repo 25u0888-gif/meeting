@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env.local
+.env.*.local
+dist/
+build/
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.cache/
+.vercel/
+_MConverter.eu_book meeting/
+*.bak
+.next/

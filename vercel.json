@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd frontend/lumina-scheduler && npm run build",
+  "outputDirectory": "frontend/lumina-scheduler/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
