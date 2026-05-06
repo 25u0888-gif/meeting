@@ -8,7 +8,8 @@
     "build": "npm --prefix ./frontend/lumina-scheduler run build",
     "preview": "npm --prefix ./frontend/lumina-scheduler run preview",
     "lint": "npm --prefix ./frontend/lumina-scheduler run lint",
-    "install:all": "npm install && npm --prefix ./frontend/lumina-scheduler install"
+    "install:all": "npm install && npm --prefix ./frontend/lumina-scheduler install",
+    "postinstall": "npm install --prefix ./frontend/lumina-scheduler"
   },
   "keywords": [
     "scheduler",
