@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "Meeting Scheduler Application - Frontend",
   "private": true,
-  "workspaces": [
-    "frontend/lumina-scheduler"
-  ],
   "scripts": {
     "dev": "cd frontend/lumina-scheduler && npm run dev",
-    "build": "cd frontend/lumina-scheduler && npm run build",
-    "preview": "cd frontend/lumina-scheduler && npm run preview",
-    "lint": "cd frontend/lumina-scheduler && npm run lint"
+    "build": "npm --prefix ./frontend/lumina-scheduler run build",
+    "preview": "npm --prefix ./frontend/lumina-scheduler run preview",
+    "lint": "npm --prefix ./frontend/lumina-scheduler run lint",
+    "install:all": "npm install && npm --prefix ./frontend/lumina-scheduler install"
   },
   "keywords": [
     "scheduler",

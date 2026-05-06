@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend/lumina-scheduler && npm run build",
+  "buildCommand": "npm --prefix ./frontend/lumina-scheduler run build",
   "outputDirectory": "frontend/lumina-scheduler/dist",
   "framework": "vite",
   "rewrites": [
